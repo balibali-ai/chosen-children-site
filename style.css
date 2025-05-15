@@ -1,3 +1,4 @@
+
 /* Reset basic styles */
 * {
   margin: 0;
@@ -17,13 +18,13 @@ body {
 header {
   background-color: #3b82f6;
   color: white;
-  padding: 20px 0;
+  padding: 25px 0;
   text-align: center;
 }
 
 header h1 {
-  font-size: 28px;
-  margin-bottom: 10px;
+  font-size: 30px;
+  margin-bottom: 8px;
 }
 
 nav {
@@ -34,7 +35,7 @@ nav a {
   color: white;
   text-decoration: none;
   margin: 0 10px;
-  font-weight: bold;
+  font-weight: 600;
   transition: color 0.3s ease;
 }
 
@@ -49,11 +50,12 @@ main {
 
 /* Footer */
 footer {
-  background-color: #f3f4f6;
+  background-color: #f1f5f9;
   text-align: center;
   padding: 15px 0;
-  margin-top: 30px;
+  margin-top: 40px;
   font-size: 14px;
+  color: #555;
 }
 
 /* Buttons */
@@ -62,7 +64,7 @@ button, .btn {
   color: white;
   border: none;
   padding: 10px 18px;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
   text-decoration: none;
   font-weight: bold;
@@ -86,6 +88,7 @@ button:hover, .btn:hover {
   border-radius: 10px;
   object-fit: cover;
   height: 180px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 /* Testimonials */
@@ -97,7 +100,7 @@ button:hover, .btn:hover {
 }
 
 .testimonial {
-  background: #f9f9f9;
+  background: #f9fafb;
   padding: 20px;
   border-left: 5px solid #3b82f6;
   border-radius: 8px;
@@ -109,7 +112,7 @@ button:hover, .btn:hover {
   display: block;
   margin-top: 10px;
   font-style: normal;
-  color: #333;
+  color: #111827;
 }
 
 /* Responsive tweaks */
