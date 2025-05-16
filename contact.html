@@ -1,15 +1,54 @@
-<main>
-  <h2>Get in Touch</h2>
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-    <label for="name">Name:</label><br />
-    <input type="text" id="name" name="name" required /><br /><br />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Chosen Children’s Outreach</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Chosen Children’s Outreach</h1>
+  </header>
 
-    <label for="email">Email:</label><br />
-    <input type="email" id="email" name="_replyto" required /><br /><br />
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-    <label for="message">Message:</label><br />
-    <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+  <main>
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you. Please use the form below to reach out or find us at our office.</p>
 
-    <button type="submit">Send Message</button>
-  </form>
-</main>
+    <section class="contact-container">
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <h3>Our Office</h3>
+        <p>Chosen Children’s Outreach<br/>
+        P.O. Box 1234<br/>
+        Hope City, Grace County<br/>
+        Email: contact@chosenoutreach.org<br/>
+        Phone: +1 (555) 123-4567</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Chosen Children’s Outreach. All rights reserved.</p>
+  </footer>
+</body>
+</html>
